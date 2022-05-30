@@ -1,0 +1,114 @@
+
+/* CSS Document */
+/*
+============================================
+; Title: Assignment 1.3
+; Author: Professor Krasso
+; Date: 29 MAY 2022
+; Modified By: <ANITA TAYLOR>
+; Description: This program demonstrates the
+; use of JavaScript types, values, and
+; and variables in an application.
+;===========================================
+*/ 
+
+body {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+	
+}
+/* margins set in container to 50px /100px */
+#container {
+    margin-top: 50px; margin-left: 100px;
+    margin-right: 100px;
+	padding: 10px;
+    
+}
+
+	h1 {background-color: #3C275A;
+    color: #ffffff;
+	 border: 1px solid #D6A800;
+    padding: 10px;
+}
+h2 {background-color: #4F3674;
+    color: #ffffff;
+	 border: 1px solid #D6A800;
+    padding: 10px;
+}
+h3{background-color: #4F3674;
+    color: #ffffff;
+	 border: 1px solid #D6A800;
+    padding: 10px;
+}
+h4{background-color: #4F3674;
+    color: #ffffff;
+	 border: 1px solid #D6A800;
+    padding: 10px;
+}
+/*  */
+#icon-text {padding-left: 10px;}
+}
+.pull-right {
+    float: right;
+}
+#icon-mode:hover {
+  cursor: pointer;
+}
+/**
+    Styles added per instructions Web 330 HTML, CSS, JavaScript Requirements document;
+    Exhibit D.
+ */
+.assign-container {
+    padding: 10px;
+}
+
+.assign-content {
+    width: 600px;
+    margin: 3% auto 0;
+}
+
+.assign-results-text {
+    text-align: center;
+    font-size: 28px;
+}
+
+/**
+    Styles added per requirements Web 330 HTML, CSS, JavaScript Requirements document.
+ */
+.app-header {
+    text-align: center;
+    font-weight: 400;
+    border: none;
+    color: inherit;
+    background-color: inherit;
+}
+
+.return-home {
+    color: #4F3674;
+    text-decoration: none;
+}
+
+.return-home:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
+
+.return-home:visited {
+    color: #3c275a;
+}
+
+.form {
+    display: inline-grid;
+    grid-template-columns: auto;
+}
+
+.form-field {
+    padding: 20px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+
+
+

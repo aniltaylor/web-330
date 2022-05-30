@@ -31,7 +31,7 @@
 </header>
 	 <!-- horizontal line-->
 <hr>	
-	 <!-- h3 tag changed value to weekly assignments with UL and assignments-->
+	 <!-- h3 tag weekly assignments with ul/assignments-->
 <h3>Weekly Assignments</h3>
   <ul>
   <li>Assignment 1.3</li>
@@ -44,12 +44,12 @@
 </ul>
 	<!-- h3 tag value to projects-->
 	<h3>Projects</h3>
-	<!-- projects info changed value with UL and projects-->
+	<!-- projects info with UL/projects-->
   <ul>
   <li>Personal Portfolio</li>
   <li>WEB 330's Landing Page</li>
   </ul>
-	<!-- h4 tag changed value to important links and listings for links below-->
+	<!-- h4 tag  links/listings for links below-->
 	<h4>Important Links </h4>
 	<ul>
 	    <li><a href="https://github.com/buwebdev/web-330">WEB 330's GitHub repository</a></li>
@@ -65,8 +65,7 @@
       setDefaultTheme();
 
       /**
-       * Onclick function toggles between light theme and dark theme
-       * @param x (this instance)
+       * Onclick function toggles between light theme/dark theme
        * Reference: https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp
        */
       function toggleMode(X) {
@@ -75,9 +74,7 @@
         console.log(colorTheme); //testing purposes
         // console.log(iconMode); //testing purposes
         /**
-         * If the current body class is set to the light-theme, update the user's preference to the dark-theme in the browsers
-         * local storage.
-         * Light theme is the default theme
+         * Light theme is default
          */
         if (colorTheme.value === "light-theme") {
           localStorage.clear();
@@ -88,8 +85,7 @@
           console.log(localStorage);
         } else {
           /**
-           * If the current body class is set to the dark-theme, update the user's preference to the light-theme in the browsers
-           * local storage.
+           * dark-theme is not default
            */
           localStorage.clear();
           localStorage.setItem("mode", "light-theme");

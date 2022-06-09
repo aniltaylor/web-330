@@ -1,0 +1,24 @@
+/* CSS Document */
+/*
+============================================
+; Title: Assignment 3
+; Author: Professor Krasso
+; Date: 9 June 2022
+; Modified By: <ANITA TAYLOR>
+; Description: This program demonstrates the
+; use of JavaScript types, values, and
+; and variables in an application.
+;===========================================
+*/ 
+
+body {
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+	
+}
+/* margins set in container to 50px /100px */
+#container {color: #3C275A;
+    margin-top: 50px; margin-left: 400px;
+    margin-right: 225px;
+	padding: 10px; box-shadow: 1px 2px 1px 2px #888888;   
+}
+h1 {text-align: center; padding-left: 150px;}

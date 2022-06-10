@@ -1,4 +1,5 @@
-<script> 
+<script>
+  console.log('wepa');
 export class Appetizer
 {
 constructor(home, price)

@@ -1,7 +1,7 @@
 <script> 
 export class Product
 {
-constructor(home, price)
+constructor(name, price)
 {
 this.name = name;
 this.price = price;

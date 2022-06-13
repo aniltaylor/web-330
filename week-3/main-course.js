@@ -1,11 +1,9 @@
-<script> 
-export class main-course
-{
-constructor(home, price)
-{
-this.name = name;
-this.price = price;
-}
-}
+// Import product class from product.js
+import { Product } from "./product";
 
-</script>
+// Create MainCourse class and export module.
+export class MainCourse extends Product {
+  constructor(name, price) {
+    super(name, price);
+  }
+}

@@ -1,10 +1,9 @@
-<script> 
-export class beverage
-{
-constructor(home, price)
-{
-this.name = name;
-this.price = price;
+// Import product class from product.js
+import { Product } from "./product";
+
+// Create Beverage class and export module
+export class Beverage extends Product {
+  constructor(name, price) {
+    super(name, price);
+  }
 }
-}
-</script>

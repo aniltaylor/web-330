@@ -1,11 +1,9 @@
-<script> 
-export class dessert
-{
-constructor(home, price)
-{
-this.name = name;
-this.price = price;
-}
-}
+// Import product class from product.js
+import { Product } from "./product";
 
-</script>
+// Create Dessert class and export module.
+export class Dessert extends Product {
+  constructor(name, price) {
+    super(name, price);
+  }
+}

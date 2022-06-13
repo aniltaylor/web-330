@@ -1,11 +1,9 @@
-<script>
-  console.log('wepa');
-export class Appetizer
-{
-constructor(home, price)
-{
-this.name = name;
-this.price = price;
+// Import product class from product.js
+import { Product } from "./product";
+
+// Create Appetizer class and export module
+export class Appetizer extends Product {
+  constructor(name, price) {
+    super(name, price);
+  }
 }
-}
-</script>

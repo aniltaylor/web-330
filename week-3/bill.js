@@ -1,4 +1,4 @@
-// Creating Bill class with four parameters and menu items.
+// Creating Bill class with four parameters/ menu items.
 export class Bill {
   constructor(_beverages, _appetizers, _mainCourses, _desserts) {
     // Each parameter is set to an empty array.
@@ -14,7 +14,7 @@ export class Bill {
   // _mainCourses = [];
   // _desserts = [];
 
-  // creates addBeverage, addAppetizer, addMainCourse, addDessert functions/push the each menu item object to relative array.
+  // creates addBeverage, addAppetizer, addMainCourse, addDessert functions/push each menu item object to relative array.
   addBeverage(beverage) {
     this._beverages.push(beverage);
   }
@@ -29,7 +29,7 @@ export class Bill {
     this._desserts.push(dessert);
   }
 
-  // Creates getTotal function uses forEach() function to loop each menu item array/calculate total using price field of each menu item object.
+  // Creates getTotal function uses forEach() function to loop menu item array/calculate total using price field of each menu item object.
   getTotal() {
     let total = 0;
 

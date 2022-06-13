@@ -1,4 +1,4 @@
-// Create and export product class with name and price parameters.
+// Create/export product class with name and price parameters.
 export class Product {
   constructor(name, price) {
     this.name = name;
@@ -6,7 +6,7 @@ export class Product {
   }
 }
 
-// Export all of the files from index.js file to limit layer issues.
+// Export all files from index.js file to limit layer issues.
 export * from "./appetizer.js";
 export * from "./beverage.js";
 export * from "./dessert.js";

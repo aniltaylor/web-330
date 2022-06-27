@@ -19,6 +19,6 @@ export class CalorieConverter {
       if (string.includes(foodModel.name.toLowerCase())) {
         return foodModel;
       }
-    });
+    );
   }
 }

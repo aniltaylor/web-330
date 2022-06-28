@@ -1,134 +1,42 @@
-body{
-    font-family: 'Oswald', Verdana, Arial, sans-serif;
-  }
-#container {
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 0px;
-    padding: 10px;
+/* CSS Document */
+/*        
+============================================
+Title: Assignment 8.3
+Author: Professor Krasso
+Date: 10 MAY 2022
+Modified By: <ANITA TAYLOR>
+Description: This program demonstrates the
+use of JavaScript types, values, and
+and variables in an application.
+===========================================
+*/
+ 
+.app-header {margin-left: 200px; margin-right: 200px; font-size: 28px;}
+ 
+body
+ 
+{ text-align: center; max-width: 1000px; margin-left: 20%;
+ 
+font-size: 28px;
+ 
+    font-family: 'Oswald', Verdana, Arial, sans-serif;  box-shadow: 1px 2px 1px 2px #888888;            
+ 
 }
-/* Styling for toggle icon */
-#icon-mode:hover {
-    cursor: pointer;
+ 
+button {font-size: 16px; width: 300px; height: 40px;
+ 
+background-color: #3C275A; color: #ffffff; border-radius: 5px; margin-top: 10px; margin-bottom: 30px;
+ 
 }
-#icon-text {
-    padding-left: 10px;
-}
-.pull-right {
-    float: right;
-}
-/**
-    Styles added per the instructions in the Web 330 HTML, CSS, and JavaScript Requirements document;
-    Exhibit D.
- */
-.assign-container {
-    
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 0px;
-    padding: 10px;
-}
-.assign-content {
-    width: 600px;
-    margin: 3% auto 0;
-}
-
-.assign-results-text {
-    text-align: center;
-    font-size: 28px;
-}
-
-/**
-    Styles added per the requirements in the Web 330 HTML, CSS, and JavaScript Requirements document.
- */
-.app-header {
-    text-align: center;
-    font-weight: 400;
-    border: none;
-    color: inherit;
-    background-color: inherit;   
-}
-.return-home {
-    color: #4F3674;
-    text-decoration: none;
-}
-
-.return-home:hover {
-    background-color: #D6A800;
-    color: #4F3674;
-}
-.return-home:visited {
-    color: #3c275a;
-}
-.form {
-    display: inline-grid;
-    grid-template-columns: auto;
-}
-.form-field {
-    padding: 20px;
-}
-
-.full-width {
-    width: 100%;
-}
-/* styling for card */
-.card-container-menu{
-       background-color: var(--card-background-color);
-    /* Add shadows to cards. */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    text-align: center;   
-    margin-bottom:10px;
-    margin-right:0px;
-    margin-left:0px;
-  }
-
-.card-container {
-      background-color: var(--card-background-color);
-    /* Add shadows to cards. */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-   margin-right:10px;
-}
-
-.card-content {
-   
-    text-align: left;
-}
-.card-title {
-  color:#4F3674;
-  text-align: center;
- margin-bottom: 15px;
- /* color:#4F3674; */
- font-weight: 400;
- font-size: 2em;
-}
-
-/* Styling for button */
-.btn {
-    margin-top: 20px;
-    padding: 15px 100px;
-     background-color: #4F3674;
-    color: white;
-}
-
-/* Styling card container in grid format */
-.grid-container {
-  display: grid;
-  grid-template-columns:50% 50%;
-  gap: 10px;
-  padding: 10px;
- }
-h2, h3, h4 {
-  color: var(--heading-color);
-  background-color: var(--heading-background-color);
-  padding: 10px;
-  border: 1px solid var(--heading-border-color);
-}
-#foodList {
-  margin-left: 30px;
-  float: right;
-  color: #df546a;
-  font-size: 12px;
-  letter-spacing: 2px;
-}
+ 
+.form-field {padding-top: 20px; padding-bottom: 10px; font-size: 16px;}
+ 
+#btnSubmit {margin-right: 320px; margin-left: 0px; font-size: 16px;}
+ 
+#assign-container1 {text-align: center; box-shadow: 1px 2px 1px 2px #888888; max-width: 800px; font-size: 16px;} 
+#form {text-align: center; box-shadow: 1px 2px 1px 2px #888888; margin-left: 0px; margin-right: 240px;} 
+ 
+ 
+.return-home {margin-top: 10px; float: left; margin-left: -50px; text-decoration: none; margin-top: 10px;
+ 
+font-size: 16px;}

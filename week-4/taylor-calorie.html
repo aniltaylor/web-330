@@ -1,12 +1,23 @@
+<!--       
+============================================
+Title: Assignment 8.3
+Author: Professor Krasso
+Date: 10 MAY 2022
+Modified By: <ANITA TAYLOR>
+Description: This program demonstrates the
+use of JavaScript types, values, and
+and variables in an application.
+===========================================
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>WEB 330 - Enterprise JavaScript II</title>
-    <!-- external CSS stylesheet -->
-    <link rel="stylesheet" type="text/css" href="../theme.css" />
-    <link rel="stylesheet" type="text/css" href="../site.css" />
-    <link rel="stylesheet" href="./taylor-calorie.css" />
+   external CSS stylesheet -->
+     <link rel="stylesheet" type="text/css" href="../theme.css" /> 
+      <link rel="stylesheet" type="text/css" href="../site.css" /> 
+    <link rel="stylesheet" type="text/css" href="./taylor-calorie.css" />
     <!-- Google fonts for Oswald -->
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
@@ -27,9 +38,9 @@
     <div class="assign-container">
       <h1 class="app-header">Welcome to the Calorie App!</h1>
       <div class="assign-content">
-        <!-- the first card contains a input form -->
+      <!-- the first card contains a input form -->
         <div class="card-container">
-          <div class="card-title">Calorie Search Form</div>
+          <div id="card-title">Calorie Search Form</div>
           <div class="card-content">
             <div class="form">
               <div class="form-field">
@@ -44,10 +55,8 @@
               </div>
               <div class="form-field">
                 <!-- Button for active function  -->
-                <button class="btn btn-primary full-width" id="btnSearch">
-                  Search
-                </button>
-              </div>
+                <button id="btnSearch" class="btn btn-primary full-width" onclick="txtFoodItem()">Search</button>
+               </div>
             </div>
           </div>
         </div>
@@ -56,12 +65,14 @@
         <!-- Return link back to WEB-231 landing page -->
         <a class="return-home" href="../index.html">Return</a>
         <!-- The second container for Search Results -->
-        <div class="assign-content card-container">
-          <div class="card-title">Search Results</div>
+		<div class="assign-container1">
+        <div class="card-container">
+          <div class="card-title">Results</div>
           <div class="card-content" id="searchResults"></div>
         </div>
       </div>
     </div>
+	</div>
     <!-- external JavaScript file -->
     <script src="../theme.js"></script>
     <script type="module">

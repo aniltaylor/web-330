@@ -1,0 +1,157 @@
+body{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+  }
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 0px;
+    padding: 10px;
+}
+
+#icon-mode:hover {
+    cursor: pointer;
+}
+
+#icon-text {
+    padding-left: 10px;
+}
+
+.pull-right {
+    float: right;
+}
+/**
+    Styles added per instructions for Web 330 HTML, CSS,JavaScript Requirements document;
+    Exhibit D.
+ */
+.assign-container {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding: 10px;
+}
+
+.assign-content {
+    width: 500px;
+    margin: 3% auto 0;
+}
+
+.assign-results-text {
+    text-align: center;
+    font-size: 28px;
+}
+/**
+    Styles added per requirements forWeb 330 HTML, CSS, JavaScript Requirements document.
+ */
+.app-header {
+    text-align: center;
+	margin-left: -10%;
+    font-weight: 400;
+    border: none;
+    color: inherit;
+    background-color: inherit;  
+}
+
+.return-home {
+    color: #4F3674;
+    text-decoration: none;
+	margin-left: -31%; 
+	}
+
+.return-home:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+}
+
+.return-home:visited {
+    color: #3c275a; 
+}
+
+.form {
+    display: inline-grid;
+    grid-template-columns: auto;
+}
+
+.form-field {
+    padding: 20px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+/* card styling */
+
+.card-container-menu{
+       background-color: var(--card-background-color);
+  box-shadow: 1px 2px 1px 2px #888888; 
+    transition: 0.3s;
+    text-align: center;   
+    margin-bottom:10px;
+    margin-right:0px;
+    margin-left:0px; 
+ }
+
+.card-container {
+      background-color: var(--card-background-color);
+    box-shadow: 1px 2px 1px 2px #888888;
+    transition: 0.3s;
+   margin-right:20px;
+   margin-left: 20px;
+}
+.card-container1 {
+      background-color: var(--card-background-color);
+    box-shadow: 1px 2px 1px 2px #888888;
+    transition: 0.3s;
+   margin-right:33%;
+   margin-left: 33%;
+   margin-top: 2%;
+}
+.card-content {
+   
+    text-align: left;
+}
+
+
+.card-title {
+  color:#4F3674;
+  text-align: center;
+ margin-bottom: 15px;
+ /* color:#4F3674; */
+ font-weight: 400;
+ font-size: 2em;
+}
+
+/* button Styling  */
+.btn {
+    margin-top: 20px;
+    padding: 15px 100px;
+    background-color: #4F3674;
+    color: white;
+}
+
+/* Styling card container grid format */
+.grid-container {
+  display: grid;
+  grid-template-columns:50% 50%;
+  gap: 10px;
+  padding: 10px;
+}
+
+h2,
+h3, h4 {
+  color: var(--heading-color);
+  background-color: var(--heading-background-color);
+  padding: 10px;
+  border: 1px solid var(--heading-border-color);
+}
+.danger {
+    float: right;
+    color: #df546A;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.form-label {
+    display: inline-block;
+    padding-top: 1rem;
+}
